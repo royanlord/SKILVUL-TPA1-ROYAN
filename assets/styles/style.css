@@ -474,8 +474,8 @@ nav .menu ul li a:hover:after {
 #blog .container-blog .content .blog-content {
     /* background-color: aqua; */
     margin-top: 45px;
-    width: 80%;
-    row-gap: 20px;
+    width: 90%;
+    row-gap: 70px;
     display: flex;
     flex-direction: column;
 }
@@ -483,6 +483,17 @@ nav .menu ul li a:hover:after {
 #blog .container-blog .content .blog-content .content-box {
     display: flex;
     column-gap: 30px;
+}
+
+#blog .container-blog .content .blog-content .content-box img {
+    border-radius: 10px;
+}
+
+#blog .container-blog .content .blog-content .content-detail {
+    background-color: #222222;
+    padding: 30px 50px;
+    border-radius: 10px;
+    border: 1px solid #FFD700;
 }
 
 #blog .container-blog .content .blog-content .content-box h2 {
