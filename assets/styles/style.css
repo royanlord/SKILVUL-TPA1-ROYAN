@@ -392,6 +392,10 @@ nav .menu ul li a:hover:after {
     height: auto;
 }
 
+#portfolio .container-porto .porto-box a {
+    cursor: zoom-in;
+}
+
 #portfolio .container-porto .porto-box img {
     margin-top: 20px;
     border-radius: 5px;
