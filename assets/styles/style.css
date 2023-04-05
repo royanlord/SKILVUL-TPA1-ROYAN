@@ -581,7 +581,8 @@ nav .menu ul li a:hover:after {
     margin-top: 25px;
     border-radius: 13px;
     background-color: #222222;
-    height: 500px;
+    padding: 100px 10px;
+    height: auto;
     display: flex;
     align-items: center;
 }
@@ -601,6 +602,30 @@ nav .menu ul li a:hover:after {
 
 #contact .contact-box .main-contact .message span {
     color: #FFD700;
+}
+
+#contact button {
+    letter-spacing: 1px;
+    cursor: pointer;
+    padding: 10px 15px;
+    width: 135px;
+    margin-top: 45px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 14px;
+    border: 2px solid #FFD700;
+    color: white;
+    background-color: transparent;
+    transition: all 0.3s ease;
+}
+
+#contact button:hover {
+    background-color: #FFD700;
+    color: rgb(43, 43, 43);
+}
+
+#contact .contact-box .main-contact .info {
+    margin-bottom: 45px;
 }
 
 #contact .contact-box .main-contact .info .info-contact {
