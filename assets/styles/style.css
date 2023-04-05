@@ -407,6 +407,81 @@ nav .menu ul li a:hover:after {
 
 
 
+/* blog */
+#blog {
+    height: auto;
+    color: white;
+    background-color: rgb(43, 43, 43);
+    display: flex;
+    justify-content: center;
+}
+
+#blog .container-blog {
+    /* background-color: aqua; */
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+#blog .container-blog .title-blog {
+    display: flex;
+    justify-content: center;
+}
+
+#blog .container-blog .title-blog h1 {
+    font-size: 3.2rem;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+#blog .container-blog .title-blog h1 > span {
+    color: #FFD700;
+}
+
+#blog .container-blog .title-blog hr {
+   margin: 0 25%;
+}
+
+#blog .container-blog .content {
+    margin-top: 65px;
+}
+
+#blog .container-blog .content .title-content {
+    display: flex;
+    align-items: center;
+    column-gap: 18px;
+}
+
+#blog .container-blog .content .title-content h1 {
+    font-size: 1.8rem;
+}
+
+#blog .container-blog .content .desc-content {
+    margin-top: 10px;
+}
+
+#blog .container-blog .content .blog-content {
+    /* background-color: aqua; */
+    margin-top: 45px;
+    width: 80%;
+    row-gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#blog .container-blog .content .blog-content .content-box {
+    display: flex;
+    column-gap: 30px;
+}
+
+#blog .container-blog .content .blog-content .content-box h2 {
+    color: #FFD700;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+#blog .container-blog .content .blog-content .content-box p {
+    font-size: 0.9rem;
+}
 
 
 
