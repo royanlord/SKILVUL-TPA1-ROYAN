@@ -77,6 +77,18 @@ nav .menu ul li a:after {
     transition: 0.3s;
 }
 
+nav .menu ul li a.active:after {
+    content: "";
+    position: absolute;
+    background-color: #FFD700;
+    height: 3px;
+    width: 100%;
+    left: 0;
+    bottom: -10px;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
 nav .menu ul li a:hover {
     color: white;
 }
